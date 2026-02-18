@@ -1,8 +1,19 @@
+{% load static %}
 <html>
 
-<body bgcolor="cyan">
-    <h1 align="center">Welcome To The Home Page</h1>
-    <a href="contact">contact</a><br>
-    <a href="about">about</a>
-</body>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <body bgcolor="">
+        
+        <ol>
+            <li><a href="home">HOME</a></li>    
+            <li><a href="contact">contact US</a></li>
+            <li><a href="about">About US</a></li>
+            <li><a href="">Registration</a></li>
+            <li><a href="">Login</a></li>
+        </ol>
+        <div id="head">
+            <h1 align="center">Welcome to the home page</h1>
+        </div>
+         <img src = "{% static 'sp.jpg' %}">
+    </body>
 </html>
